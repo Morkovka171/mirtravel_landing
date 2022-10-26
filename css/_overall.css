@@ -21,3 +21,13 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+.section-tittle{
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+color: #1C2E3D;
+}
+.section-tittle--center{
+  text-align: center;
+  max-width: none;
+}

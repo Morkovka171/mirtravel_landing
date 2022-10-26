@@ -1,6 +1,6 @@
 .first {
   height: 100vh;
-  min-height: 600px;
+  min-height: 660px;
   background-image: url(/img/first-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -47,6 +47,8 @@
   text-transform: uppercase;
   color: #ffffff;
   padding: 33px 82px;
+  position: relative;
+  z-index: 5;
 }
 .first_bottom {
   position: absolute;
@@ -106,3 +108,41 @@
   letter-spacing: 2.18182px;
   line-height: 1;
 }
+@media (max-height: 1079px) {
+  .first_container {
+    padding: 120px 30px;
+  }
+}
+@media (max-height: 880px) {
+  .first_container {
+    padding: 100px 30px;
+  }
+  .first_link{
+    margin-bottom: 30px;
+  }
+  .first_tittle{
+    font-size: 75px;
+    line-height: 65px;
+  }
+}
+@media (max-height: 780px) {
+  .search-form{
+    height: 80px;
+  }
+  .main-slider-text{
+    height: 80px;
+  }
+  .first_tittle{
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 20px;
+  }
+  .first_descr{
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .first_btn{
+    padding: 25px 40px;
+  }
+}
+
