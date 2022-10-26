@@ -1,0 +1,108 @@
+.first {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url(/img/first-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white-color);
+}
+.first_container {
+  position: relative;
+  padding-top: 223px;
+  padding-bottom: 200px;
+  height: 100%;
+}
+.first_link {
+  background-color: rgb(28, 46, 61, 0.4);
+  border-radius: 24px;
+  padding: 15px 30px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 42px;
+}
+.first_tittle {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+  max-width: 40%;
+  margin-bottom: 30px;
+}
+.first_descr {
+  font-family: "SFCompact", sans-serif;
+  font-size: 14px;
+  line-height: 114%;
+  font-weight: 300;
+  max-width: 32%;
+  margin-bottom: 59px;
+}
+.first_btn {
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 33px 82px;
+}
+.first_bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: calc(100% - 60px);
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+}
+.search-form {
+  flex-shrink: 0;
+  width: 68%;
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 4px;
+  height: 120px;
+}
+.search-form_field {
+  border: none;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  color: #1c2e3d;
+  padding-left: 55px;
+  padding-right: 90px;
+}
+.search-form_button {
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/search.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 62px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main-slider {
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  line-height: 1;
+  font-size: 0;
+}
+.main-slider-text {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #73afba;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  line-height: 1;
+}

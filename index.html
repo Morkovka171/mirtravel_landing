@@ -1,28 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mitravel</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="site-container">
-    <header class="header">
-        <div class="container">
-            <ul class="header_social social">
-                <li class="social_item">
-                    <a href="#" class="social_link social_link--fb" aria-label= "Go To Facebook"></a>
-                </li>
-                <li class="social_item">
-                    <a href="#" class="social_link social_link--tw" aria-label= "Go To Twitter"></a>
-                </li>
-            </ul>
-            <a href="#" class="header_logo logo">Mitravel</a>
-            <button class="header_burger burger" aria-label= "Open menu"></button>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <header class="header">
+        <div class="container header_container flex">
+          <ul class="header_social social">
+            <li class="social_item">
+              <a
+                href="#"
+                class="social_link social_link--fb"
+                aria-label="Go To Facebook"
+              ></a>
+            </li>
+            <li class="social_item">
+              <a
+                href="#"
+                class="social_link social_link--tw"
+                aria-label="Go To Twitter"
+              ></a>
+            </li>
+          </ul>
+          <a href="#" class="header_logo logo">Mitravel</a>
+          <button class="header_burger burger btn-reset" aria-label="Open menu">
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+          </button>
         </div>
-    </header>
-</div>
-</body>
+      </header>
+      <main class="main">
+        <section class="first">
+          <div class="container first_container">
+            <a href="#" class="first_link">New Book</a>
+            <h1 class="first_tittle">Mother Earth Hosts Our Travels</h1>
+            <p class="first_descr">
+              There are not many cities that have experienced such social and
+              political extremes in recent history as Amsterdam. In the 20th
+              century alone, Amsterdam faced the atrocities of war for the first
+              time in 400 years, became the radical center of 1960s social
+              movements and witnessed a complete
+            </p>
+            <button class="first_btn btn-reset">Buy the book</button>
+            <div class="first_bottom">
+              <form action="/" class="first_form search-form">
+                <input
+                  type="search"
+                  class="search-form_field"
+                  placeholder="Search stories"
+                />
+                <button
+                  type="submit"
+                  class="search-form_button btn-reset"
+                  aria-label="Search stories"
+                ></button>
+              </form>
+              <div class="first_slider main-slider">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="main-slider_media">
+                        <img src="/img/slider-1.jpg" alt="Moutains" />
+                      </div>
+                      <p class="main-slider-text">wonderful moutain</p>
+                    </div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
