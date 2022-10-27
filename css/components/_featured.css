@@ -1,0 +1,116 @@
+.featured {
+    background-image: url(/img/featured.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1080px;
+    position: relative;
+}
+.featured_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.featured_stories {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 35.3%;
+    background-color: rgba(17,31,42, 0.9);
+    padding: 126px 133px;
+}
+.blog-article{
+    padding-bottom: 105px;
+}
+.blog-article_category{
+    background: #E8594E;
+    border-radius: 24px;
+font-size: 11px;
+line-height: 1;
+text-align: center;
+font-weight: 700;
+letter-spacing: 2px;
+color: #FFFFFF;
+padding: 17px 31px;
+text-transform: uppercase;
+display: inline-block;
+margin-bottom: 20px;
+}
+.blog-article_tittle {
+font-size: 48px;
+line-height: 64px;
+color: #FFFFFF;
+font-weight: 700;
+max-width: 40%;
+margin-bottom: 18px;
+}
+.blog-article_descr {
+    font-family: 'SFCompact', sans-serif;
+    font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+font-weight: 400;
+margin-bottom: 40px;
+max-width: 40%;
+}
+.btn{
+    background-color: var(--accent-color);
+    border-radius: 8px;
+    font-size: 12px;
+    letter-spacing: 2.18182px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 33px 82px;
+}
+.blog-article_link{
+    background-color:#73afba; 
+    display: inline-block;
+}
+.featured_tittle {
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+.feature-list_article {
+    border-bottom: 1px solid #4d5a5f;
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 0;
+}
+.feature-list_item:last-child .future-list_article  {
+    border-bottom: 1px solid transparent;
+}
+.feature-list_image {
+	border-radius: 100%;
+	overflow: hidden;
+	height: 48px;
+	width: 48px;
+	flex-shrink: 0;
+}
+
+.feature-list_image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.feature-list_text {
+    margin-left: 32px;
+    padding-right: 35px;
+}
+.feature-list_tittle {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.feature-list_time {
+    font-family: 'SFProText', sans-serif;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.502293);
+    font-weight: 400;
+}

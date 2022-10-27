@@ -41,12 +41,6 @@
 }
 .first_btn {
   background-color: var(--accent-color);
-  border-radius: 8px;
-  font-size: 12px;
-  letter-spacing: 2.18182px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 33px 82px;
   position: relative;
   z-index: 5;
 }
