@@ -65,4 +65,9 @@ font-weight: 410;
     padding: 41px 80px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    transition: background-color 0.3s;
+}
+.subscribe-form_btn:hover{
+    background-color:#3faabd; 
+    transition: background-color 0.3s;
 }

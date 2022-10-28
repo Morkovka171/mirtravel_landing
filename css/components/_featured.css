@@ -67,6 +67,11 @@ max-width: 40%;
 .blog-article_link{
     background-color:#73afba; 
     display: inline-block;
+    transition: background-color 0.3s;
+}
+.blog-article_link:hover{
+    background-color:#3faabd; 
+    transition: background-color 0.3s;
 }
 .featured_tittle {
     font-size: 64px;

@@ -43,6 +43,11 @@
   background-color: var(--accent-color);
   position: relative;
   z-index: 5;
+  transition: background-color 0.3s;
+}
+.first_btn:hover {
+  background-color: #e0180a;
+  transition: background-color 0.3s;
 }
 .first_bottom {
   position: absolute;

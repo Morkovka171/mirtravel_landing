@@ -32,6 +32,11 @@ justify-content: space-between;
     color: #959EA6;
     display: inline-block;
     margin-bottom: 12px;
+    transition: color 0.3s;
+}
+.footer_link:hover{
+    color: #6b7075;
+    transition: color 0.3s;
 }
 .subs_form{
     width: 368px;
@@ -61,6 +66,11 @@ justify-content: space-between;
 line-height: 14px;
 text-align: center;
 letter-spacing: 2.18182px;
+transition: background-color 0.3s;
+}
+.subs-form_btn:hover{
+    background-color:#3faabd; 
+    transition: background-color 0.3s;
 }
 .footer_bottom{
     border-top: 1px solid #d9d9d9;

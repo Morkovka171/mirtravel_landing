@@ -23,6 +23,11 @@ margin-right: 40px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: opacity 0.3s;
+}
+.social_link:hover {
+opacity:0.8;
+transition: opacity 0.3s;
 }
 .social_link--fb {
   background-image: url(/img/fb.svg);
@@ -47,6 +52,11 @@ margin-right: 40px;
   width: 48px;
   height: 10px;
   position: relative;
+  
+}
+.burger:hover .burger_line {
+background-color: #E8594E;
+transition: background-color 0.3s;
 }
 .burger_line {
   width: 100%;
@@ -56,6 +66,7 @@ margin-right: 40px;
   position: absolute;
   right: 0;
   top: 0;
+  transition: background-color 0.3s;
 }
 .burger_line:last-child {
   top: auto;
