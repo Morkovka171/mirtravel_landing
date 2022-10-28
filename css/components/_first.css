@@ -99,8 +99,9 @@
   color: var(--white-color);
   font-weight: 800;
   font-size: 12px;
+  padding-right: 350px;
+
   letter-spacing: 2.18182px;
-  line-height: 1;
 }
 @media (max-height: 1079px) {
   .first_container {
