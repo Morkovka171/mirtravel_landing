@@ -9,6 +9,22 @@
   </head>
   <body>
     <div class="site-container">
+      <div class="menu">
+        <button class="menu_close btn-reset" aria-label="close menu">
+          <span class="menu_close-line"></span>
+          <span class="menu_close-line"></span>
+        </button>
+        <nav class="menu_nav">
+          <ul class="menu_list">
+            <li class="menu_item"><a href="#" class="menu_link">Become a travel</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Featured Stories</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Featured Videos</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Sign Up</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Inspiration</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
       <header class="header">
         <div class="container header_container flex">
           <ul class="header_social social">
@@ -62,6 +78,8 @@
               </form>
               <div class="first_slider main-slider">
                 <div class="swiper-container">
+                  <button class="first_slider-btn btn-left btn-reset"></button>
+                  <button class="first_slider-btn btn-right btn-reset"></button>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <div class="main-slider_media">
@@ -69,8 +87,19 @@
                       </div>
                       <p class="main-slider-text">wonderful moutain</p>
                     </div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                      <div class="main-slider_media">
+                        <button class="main-slider_play btn-reset"></button>
+                        <video src="/videos/1.mp4" muted playsinline></video>
+                      </div>
+                      <p class="main-slider-text">wonderful moutain</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="main-slider_media">
+                        <img src="/img/slider-2.jpg" alt="Moutains" />
+                      </div>
+                      <p class="main-slider-text">wonderful moutain</p>
+                    </div>
                   </div>
                 </div>
               </div>
