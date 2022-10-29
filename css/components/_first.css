@@ -44,6 +44,7 @@
   position: relative;
   z-index: 5;
   transition: background-color 0.3s;
+  font-weight: 700;
 }
 .first_btn:hover {
   background-color: #e0180a;
@@ -142,6 +143,7 @@ max-height: 279px;
   background-position: center;
   z-index: 50;
 }
+
 @media (max-height: 1079px) {
   .first_container {
     padding: 120px 30px;
