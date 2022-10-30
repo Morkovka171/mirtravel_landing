@@ -1,7 +1,7 @@
 .first {
   height: 100vh;
   min-height: 660px;
-  background-image: url(\first-bg.jpg);
+  background-image: url(img/firstbg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
