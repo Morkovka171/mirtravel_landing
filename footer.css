@@ -48,7 +48,7 @@ justify-content: space-between;
     border: 1px solid #E4E4E4;
     border-radius: 8px;
     padding-left: 31px;
-    background-image: url(/img/user.svg);
+    background-image: url(img/user.svg);
     background-repeat: no-repeat;
     background-position: calc(100% - 31px) center;
     

@@ -1,7 +1,7 @@
 .first {
   height: 100vh;
   min-height: 660px;
-  background-image: url(/img/first-bg.jpg);
+  background-image: url(img/first-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 .search-form_button {
   width: 18px;
   height: 18px;
-  background-image: url(/img/search.svg);
+  background-image: url(img/search.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,10 +122,10 @@
 .btn-right{
 left: auto;
 right: 50px;
-background:url(/img/arrow-right.svg);
+background:url(img/arrow-right.svg);
 }
 .btn-left{
-  background:url(/img/arrow-left.svg);
+  background:url(img/arrow-left.svg);
 }
 .main-slider_media{
 max-height: 279px;
@@ -137,7 +137,7 @@ max-height: 279px;
   transform: translate(-50%, -50%);
   width: 32px;
   height: 41px;
-  background-image: url(/img/play-2.svg);
+  background-image: url(img/play-2.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

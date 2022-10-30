@@ -69,16 +69,16 @@ transition:transform 0.3s;
     margin-top: 26px;
 }
 .slide-1{
-    background-image: url(/img/videos-slider-1.jpg);
+    background-image: url(img/videos-slider-1.jpg);
 }
 .slide-2{
-    background-image: url(/img/videos-slider-2.jpg);
+    background-image: url(img/videos-slider-2.jpg);
 }
 .slide-3{
-    background-image: url(/img/videos-slider-3.jpg);
+    background-image: url(img/videos-slider-3.jpg);
 }
 .slide-4{
-    background-image: url(/img/videos-slider-1.jpg);
+    background-image: url(img/videos-slider-1.jpg);
 }
 .slide-play{
     position: absolute;
@@ -86,7 +86,7 @@ transition:transform 0.3s;
     top: 40px;
     width: 112px;
     height: 112px;
-    background-image: url(/img/video-play.svg);
+    background-image: url(img/video-play.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -30,12 +30,12 @@ opacity:0.8;
 transition: opacity 0.3s;
 }
 .social_link--fb {
-  background-image: url(/img/fb.svg);
+  background-image: url(img/fb.svg);
   width: 11px;
   height: 20px;
 }
 .social_link--tw {
-  background-image: url(/img/tw.svg);
+  background-image: url(img/tw.svg);
   width: 20px;
   height: 17px;
 }

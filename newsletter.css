@@ -5,7 +5,7 @@ padding-bottom: 150px;
 .newsletter-content {
     position: relative;
     --newsletter-gap:133px;
-    background-image: url(/img/newsletter-cover.jpg);
+    background-image: url(img/newsletter-cover.jpg);
     border-radius:  8px;
     background-size: cover;
     background-repeat: no-repeat;
